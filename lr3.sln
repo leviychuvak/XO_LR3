@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "lr3", "lr3\lr3.ccproj", "{E83E5E8F-3CF2-4703-962D-FC111658AA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobSamle", "AzureBlobSamle\AzureBlobSamle.csproj", "{81633BC0-1C08-4707-9608-AF3DB9EE2635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83E5E8F-3CF2-4703-962D-FC111658AA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83E5E8F-3CF2-4703-962D-FC111658AA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83E5E8F-3CF2-4703-962D-FC111658AA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83E5E8F-3CF2-4703-962D-FC111658AA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81633BC0-1C08-4707-9608-AF3DB9EE2635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81633BC0-1C08-4707-9608-AF3DB9EE2635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81633BC0-1C08-4707-9608-AF3DB9EE2635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81633BC0-1C08-4707-9608-AF3DB9EE2635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18D12D90-729B-4E17-A311-15ADEF200F35}
+	EndGlobalSection
+EndGlobal

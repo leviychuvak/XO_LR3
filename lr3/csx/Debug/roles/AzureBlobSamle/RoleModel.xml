@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AzureBlobSamle" version="2.9.8899.26" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Startup>
+    <Task commandLine="DiagnosticsPluginLauncher.exe" taskType="background" relativePath="plugins\Diagnostics">
+      <Environment>
+        <Variable name="IsEmulated" value="true" />
+        <Variable name="RdModuleName" value="Diagnostics" />
+        <Variable name="WaRoleType" value="IISWebRole" />
+      </Environment>
+    </Task>
+  </Startup>
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="AzureBlobSamle.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.5.1" />
+    <Property name="OutputDir" value="D:\Fourth\sem 1\XO\LR3\lr3\lr3\obj\Debug\AzureBlobSamle\" />
+    <Property name="RoleTargetFramework" value="v4.5.1" />
+    <Property name="SitePhysicalPath" value="D:\Fourth\sem 1\XO\LR3\lr3\AzureBlobSamle\" />
+    <Property name="EntryPoint" value="AzureBlobSamle.dll" />
+    <Property name="SetPlatform" value="Platform=AnyCPU" />
+    <Property name="SourceDir" value="D:\Fourth\sem 1\XO\LR3\lr3\AzureBlobSamle\" />
+    <Property name="RoleType" value="Web" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="RoleName" value="AzureBlobSamle" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="SetConfiguration" value="Configuration=Debug" />
+    <Property name="ProjectName" value="AzureBlobSamle" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+  <Sites>
+    <Site name="Web" physicalDirectory="D:\Fourth\sem 1\XO\LR3\lr3\AzureBlobSamle\">
+      <Bindings>
+        <Binding name="Endpoint1" endpointName="Endpoint1" />
+      </Bindings>
+    </Site>
+  </Sites>
+</RoleModel>
